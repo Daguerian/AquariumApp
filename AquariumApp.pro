@@ -2,7 +2,10 @@ SOURCES += \
     Fenetre.cpp \
     main.cpp
 
-QT += widgets
+QT += widgets \
+    multimedia \
+    multimediawidgets \
+    network
 
 HEADERS += \
     Fenetre.h
